@@ -1,6 +1,4 @@
 from PIL import Image
-import numpy as np
-
 
 path = "data/lenna.png"
 img = Image.open(path).transpose(Image.FLIP_LEFT_RIGHT)
